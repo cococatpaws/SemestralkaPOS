@@ -5,6 +5,7 @@
 #include <random>
 #include <string>
 #include <algorithm>
+#include <fstream>
 #include "my_socket.h"
 using namespace std;
 
@@ -63,6 +64,9 @@ void vypis(int** vzor) {
 
 
 int main() {
+
+
+
     int** txt = new int*[row];
     for (int i = 0; i < row; i++) {
         txt[i] = new int[col];
@@ -79,6 +83,27 @@ int main() {
 
     generujSpetne(vzor.vzor, txt);
     vypis(txt);
+
+    try {
+        fstream inputFile("simulacia.txt", ios::out);
+        inputFile << vzor.vzor << endl;
+        inputFile << vzor.vzor << endl;
+        inputFile.close();
+
+    } catch(EXCEPTION_DEBUG_INFO e){
+        cout << "Súbor sa nenašiel";
+    }
+    try {
+        fstream outputFile("simulacia.txt", ios::in);
+        cout << "kontrola" <<endl;
+        string s;
+        outputFile >> s;
+        generujSpetne(s,txt);
+        vypis(txt);
+        outputFile.close();
+    } catch(EXCEPTION_DEBUG_INFO e){
+        cout << "Súbor sa nenašiel";
+    }
     for (int i = 0; i < row; i++) {
         delete[] txt[i];
     }
