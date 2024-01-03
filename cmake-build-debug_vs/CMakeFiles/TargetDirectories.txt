@@ -1,0 +1,3 @@
+C:/Users/kamik/CLionProjects/SemestralkaPOS/cmake-build-debug_vs/CMakeFiles/SemestralkaPOS.dir
+C:/Users/kamik/CLionProjects/SemestralkaPOS/cmake-build-debug_vs/CMakeFiles/edit_cache.dir
+C:/Users/kamik/CLionProjects/SemestralkaPOS/cmake-build-debug_vs/CMakeFiles/rebuild_cache.dir
