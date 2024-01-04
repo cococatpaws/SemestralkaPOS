@@ -118,6 +118,30 @@ SemestralkaPOS\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\build
 .PHONY : SemestralkaPOS\fast
 
+hra.obj: hra.cpp.obj
+.PHONY : hra.obj
+
+# target to build an object file
+hra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj
+.PHONY : hra.cpp.obj
+
+hra.i: hra.cpp.i
+.PHONY : hra.i
+
+# target to preprocess a source file
+hra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra.cpp.i
+.PHONY : hra.cpp.i
+
+hra.s: hra.cpp.s
+.PHONY : hra.s
+
+# target to generate assembly for a file
+hra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra.cpp.s
+.PHONY : hra.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -247,6 +271,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SemestralkaPOS
+	@echo ... hra.obj
+	@echo ... hra.i
+	@echo ... hra.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

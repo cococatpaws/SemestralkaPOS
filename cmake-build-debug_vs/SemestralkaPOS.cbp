@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.cpp">
+			<Option target="SemestralkaPOS"/>
+		</Unit>
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.h">
+			<Option target="SemestralkaPOS"/>
+		</Unit>
 		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/main.cpp">
 			<Option target="SemestralkaPOS"/>
 		</Unit>

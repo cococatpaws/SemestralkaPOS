@@ -15,7 +15,7 @@ std::string SuborHandler::precitajZoSuboru(const std::string& nazovSuboru) {
         std::getline(subor, precitanyVzor);
         subor.close();
     } else {
-        std::cerr << "Nepodarilo sa otvoriť súbor pre čítanie." << std::endl;
+        std::cerr << "Súbor s takýmto názvom neexistuje!!!" << std::endl;
     }
 
     return precitanyVzor;

@@ -3,13 +3,11 @@
 //
 #include "vzor.h"
 
-Vzor::Vzor(int parRiadky, int parStlpce) : riadky(parRiadky), stlpce(parStlpce) {
-    //inicializacia vzoru
-    this->vzor.resize(this->riadky);
+Vzor::Vzor() {}
 
-    for (int i = 0; i < this->riadky; ++i) {
-        this->vzor[i].resize(this->stlpce);
-    }
+Vzor Vzor::nahodnyVzor(int parRiadky, int parStlpce) {
+    //inicializacia vzoru
+    this->inicializuj(parRiadky, parStlpce);
 
     //random generatory maybe ako atribut triedy -> reusovanie
     std::random_device rd;
@@ -19,30 +17,73 @@ Vzor::Vzor(int parRiadky, int parStlpce) : riadky(parRiadky), stlpce(parStlpce) 
     for (int i = 0; i < this->riadky; ++i) {
         for (int j = 0; j < this->stlpce; ++j) {
             double genCislo = distribution(gen);
-            if (genCislo < 0.2) {
+            if (genCislo < 0.3) {
                 this->vzor[i][j] = 1;
             } else {
                 this->vzor[i][j] = 0;
             }
         }
     }
+
+    return *this;
 }
 
-//konstruktor na novy vzor
-// jeZoSuboru: false -> parVzor je stary vzor (z predosleho kroku simulacie) vytvora sa zive/mrtve bunky z existujuceho vektora do noveho vzoru, ktory sa potom da do listu vzorov v triede Hra
-// jeZoSuboru: true -> parVzor je zo suboru a iba sa skopci do atributu vzor
-Vzor::Vzor(std::vector<std::vector<int>> parVzor, bool jeZoSuboru) {
-    if (jeZoSuboru) {
-        this->vzor = parVzor;
-        this->riadky = parVzor.size();
-        this->stlpce = parVzor[0].size();
-    } else {
-        //TODO - dorobit druhu cast konstruktora
-    }
+Vzor Vzor::vzorZoSuboru(std::vector<std::vector<int>> parVzor) {
+    this->vzor = parVzor;
+    this->riadky = parVzor.size();
+    this->stlpce = parVzor[0].size();
+
+    return *this;
 }
+
 
 std::vector<std::vector<int>> Vzor::getVzor() {
     return this->vzor;
+}
+
+Vzor Vzor::vzorDefinovanyUzivatelom(int parRiadky, int parStlpce, std::string ziveBunky) {
+    this->inicializuj(parRiadky, parStlpce);
+
+    //Nuly
+    for (int i = 0; i < this->riadky; ++i) {
+        for (int j = 0; j < this->stlpce; ++j) {
+            this->vzor[i][j] = 0;
+        }
+    }
+
+    //Jednotky
+    std::istringstream  suradnice(ziveBunky);
+    std::string suradnica;
+
+    while (suradnice >> suradnica) {
+        int riadok = std::stoi(suradnica.substr(0,suradnica.find(';')));
+        int stlpec = std::stoi(suradnica.substr(2,suradnica.find(';')));
+
+        if (riadok > this->riadky || stlpec > this->stlpce) {
+            std::cout << "Bunka so suradnicami " + suradnica + " nebude zapocitana do plochy, pretoze je mimo plochy!!" << std::endl;
+            break;
+        }
+
+        for (int i = 0; i < this->riadky; ++i) {
+            for (int j = 0; j < this->stlpce; ++j) {
+                if ( i == riadok && j == stlpec) {
+                    this->vzor[i][j] = 1;
+                    break;
+                }
+            }
+        }
+    }
+    return *this;
+}
+
+void Vzor::inicializuj(int parRiadky, int parStlpce) {
+    this->riadky = parRiadky;
+    this->stlpce = parStlpce;
+    this->vzor.resize(this->riadky);
+
+    for (int i = 0; i < this->riadky; ++i) {
+        this->vzor[i].resize(this->stlpce);
+    }
 }
 
 void Vzor::vypisVzor() {
@@ -66,3 +107,26 @@ void Vzor::vypisVzor() {
         std::cout << "" << std::endl;
     }
 }
+
+void Vzor::vypisNulovyVzor(int parRiadky, int parStlpce) {
+    std::cout << "    ";
+    for (int i = 0; i < parStlpce; ++i) {
+        std::cout << i << " " ;
+    }
+    std::cout << "" << std::endl;
+
+    std::cout << "   ";
+    for (int i = 0; i < parStlpce; ++i) {
+        std::cout << "__";
+    }
+    std::cout << "" << std::endl;
+
+    for (int i = 0; i < parRiadky; ++i) {
+        std::cout << i << " | ";
+        for (int j = 0; j < parStlpce; ++j) {
+            std::cout << "0 ";
+        }
+        std::cout << "" << std::endl;
+    }
+}
+

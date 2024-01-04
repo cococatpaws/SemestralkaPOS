@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj"
+  "CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj.d"
   "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj"
   "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj.d"
   "CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.obj"

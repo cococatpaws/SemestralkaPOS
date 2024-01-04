@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.cpp" "CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj.d"
   "C:/Users/kamik/CLionProjects/SemestralkaPOS/main.cpp" "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj.d"
   "C:/Users/kamik/CLionProjects/SemestralkaPOS/my_socket.cpp" "CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.obj.d"
   "C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/konvertor.cpp" "CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj.d"

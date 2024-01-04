@@ -1,8 +1,6 @@
 #include "utility/heap_monitor.h"
 #include "my_socket.h"
-#include "utility/konvertor.h"
-#include "vzor.h"
-#include "utility/subor_handler.h"
+#include "hra.h"
 #include <iostream>
 #include <thread>
 #include <mutex>
@@ -16,6 +14,16 @@ using namespace std;
 
 int main() {
     initHeapMonitor();
+    Hra hra;
+    hra.hraj();
+
+    /*vzor.vypisVzor();
+
+    while(pouzivatelskyVstup != "koniec") {
+        std::getline(std::cin, pouzivatelskyVstup);
+
+
+    }*/
 
     /*Vzor vzor(7,3);
     vzor.vypisVzor();
