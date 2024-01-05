@@ -7,8 +7,8 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.3253
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/vadefs.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/vcruntime_new_debug.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/vcruntime_new.h
-C:/Users/kamik/CLionProjects/SemestralkaPOS/my_socket.h
-C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/um/winsock2.h
+C:/Users/kamik/CLionProjects/SemestralkaPOS/socket/my_socket.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/um/WinSock2.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/shared/winapifamily.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/shared/winpackagefamily.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/um/windows.h
@@ -292,8 +292,8 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.3253
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/tuple
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/__msvc_sanitizer_annotate_container.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/cctype
-C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.h
-C:/Users/kamik/CLionProjects/SemestralkaPOS/vzor.h
+C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/hra.h
+C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/vzor.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/random
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/__msvc_int128.hpp
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/algorithm
@@ -330,8 +330,8 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.3253
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/istream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/ostream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/sstream
-C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/konvertor.h
-C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/subor_handler.h
+C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/../utility/konvertor.h
+C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/../utility/subor_handler.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/fstream
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/thread
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/__msvc_chrono.hpp
@@ -340,6 +340,3 @@ C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/ucrt/process.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/ucrt/corecrt_startup.h
 C:/Program Files (x86)/Windows Kits/10/include/10.0.19041.0/ucrt/math.h
 C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/vcruntime_startup.h
-C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/mutex
-C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/queue
-C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/include/deque

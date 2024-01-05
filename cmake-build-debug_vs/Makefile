@@ -118,29 +118,53 @@ SemestralkaPOS\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\build
 .PHONY : SemestralkaPOS\fast
 
-hra.obj: hra.cpp.obj
-.PHONY : hra.obj
+hra\hra.obj: hra\hra.cpp.obj
+.PHONY : hra\hra.obj
 
 # target to build an object file
-hra.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj
-.PHONY : hra.cpp.obj
+hra\hra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj
+.PHONY : hra\hra.cpp.obj
 
-hra.i: hra.cpp.i
-.PHONY : hra.i
+hra\hra.i: hra\hra.cpp.i
+.PHONY : hra\hra.i
 
 # target to preprocess a source file
-hra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra.cpp.i
-.PHONY : hra.cpp.i
+hra\hra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.i
+.PHONY : hra\hra.cpp.i
 
-hra.s: hra.cpp.s
-.PHONY : hra.s
+hra\hra.s: hra\hra.cpp.s
+.PHONY : hra\hra.s
 
 # target to generate assembly for a file
-hra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra.cpp.s
-.PHONY : hra.cpp.s
+hra\hra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.s
+.PHONY : hra\hra.cpp.s
+
+hra\vzor.obj: hra\vzor.cpp.obj
+.PHONY : hra\vzor.obj
+
+# target to build an object file
+hra\vzor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj
+.PHONY : hra\vzor.cpp.obj
+
+hra\vzor.i: hra\vzor.cpp.i
+.PHONY : hra\vzor.i
+
+# target to preprocess a source file
+hra\vzor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.i
+.PHONY : hra\vzor.cpp.i
+
+hra\vzor.s: hra\vzor.cpp.s
+.PHONY : hra\vzor.s
+
+# target to generate assembly for a file
+hra\vzor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.s
+.PHONY : hra\vzor.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -166,29 +190,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-my_socket.obj: my_socket.cpp.obj
-.PHONY : my_socket.obj
+socket\my_socket.obj: socket\my_socket.cpp.obj
+.PHONY : socket\my_socket.obj
 
 # target to build an object file
-my_socket.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj
-.PHONY : my_socket.cpp.obj
+socket\my_socket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj
+.PHONY : socket\my_socket.cpp.obj
 
-my_socket.i: my_socket.cpp.i
-.PHONY : my_socket.i
+socket\my_socket.i: socket\my_socket.cpp.i
+.PHONY : socket\my_socket.i
 
 # target to preprocess a source file
-my_socket.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.i
-.PHONY : my_socket.cpp.i
+socket\my_socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.i
+.PHONY : socket\my_socket.cpp.i
 
-my_socket.s: my_socket.cpp.s
-.PHONY : my_socket.s
+socket\my_socket.s: socket\my_socket.cpp.s
+.PHONY : socket\my_socket.s
 
 # target to generate assembly for a file
-my_socket.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.s
-.PHONY : my_socket.cpp.s
+socket\my_socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.s
+.PHONY : socket\my_socket.cpp.s
 
 utility\konvertor.obj: utility\konvertor.cpp.obj
 .PHONY : utility\konvertor.obj
@@ -238,30 +262,6 @@ utility\subor_handler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.s
 .PHONY : utility\subor_handler.cpp.s
 
-vzor.obj: vzor.cpp.obj
-.PHONY : vzor.obj
-
-# target to build an object file
-vzor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj
-.PHONY : vzor.cpp.obj
-
-vzor.i: vzor.cpp.i
-.PHONY : vzor.i
-
-# target to preprocess a source file
-vzor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\vzor.cpp.i
-.PHONY : vzor.cpp.i
-
-vzor.s: vzor.cpp.s
-.PHONY : vzor.s
-
-# target to generate assembly for a file
-vzor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SemestralkaPOS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SemestralkaPOS.dir\vzor.cpp.s
-.PHONY : vzor.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,24 +271,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SemestralkaPOS
-	@echo ... hra.obj
-	@echo ... hra.i
-	@echo ... hra.s
+	@echo ... hra/hra.obj
+	@echo ... hra/hra.i
+	@echo ... hra/hra.s
+	@echo ... hra/vzor.obj
+	@echo ... hra/vzor.i
+	@echo ... hra/vzor.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... my_socket.obj
-	@echo ... my_socket.i
-	@echo ... my_socket.s
+	@echo ... socket/my_socket.obj
+	@echo ... socket/my_socket.i
+	@echo ... socket/my_socket.s
 	@echo ... utility/konvertor.obj
 	@echo ... utility/konvertor.i
 	@echo ... utility/konvertor.s
 	@echo ... utility/subor_handler.obj
 	@echo ... utility/subor_handler.i
 	@echo ... utility/subor_handler.s
-	@echo ... vzor.obj
-	@echo ... vzor.i
-	@echo ... vzor.s
 .PHONY : help
 
 

@@ -86,19 +86,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.cpp">
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/hra.cpp">
 			<Option target="SemestralkaPOS"/>
 		</Unit>
-		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.h">
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/hra.h">
+			<Option target="SemestralkaPOS"/>
+		</Unit>
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/vzor.cpp">
+			<Option target="SemestralkaPOS"/>
+		</Unit>
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/hra/vzor.h">
 			<Option target="SemestralkaPOS"/>
 		</Unit>
 		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/main.cpp">
 			<Option target="SemestralkaPOS"/>
 		</Unit>
-		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/my_socket.cpp">
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/socket/my_socket.cpp">
 			<Option target="SemestralkaPOS"/>
 		</Unit>
-		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/my_socket.h">
+		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/socket/my_socket.h">
 			<Option target="SemestralkaPOS"/>
 		</Unit>
 		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/konvertor.cpp">
@@ -111,12 +117,6 @@
 			<Option target="SemestralkaPOS"/>
 		</Unit>
 		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/subor_handler.h">
-			<Option target="SemestralkaPOS"/>
-		</Unit>
-		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/vzor.cpp">
-			<Option target="SemestralkaPOS"/>
-		</Unit>
-		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/vzor.h">
 			<Option target="SemestralkaPOS"/>
 		</Unit>
 		<Unit filename="C:/Users/kamik/CLionProjects/SemestralkaPOS/CMakeLists.txt">
