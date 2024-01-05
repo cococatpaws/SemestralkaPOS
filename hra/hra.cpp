@@ -99,7 +99,7 @@ void Hra::hraj() {
         if (!simulaciaBezi && !bolaSpustena) {
             std::cout << "-------------------------------------------" << std::endl;
             std::cout << "Simulacia je pozastavena! Chces ju spustit?" << std::endl;
-            std::cout << "(Simulaciu mozes v akomkolvek okamziku zastavit pomocou tlacidla 'P¨). Pre spustenie simulacie stlac tlacidlo 'G':  ";
+            std::cout << "(Simulaciu mozes v akomkolvek okamziku zastavit pomocou tlacidla 'P'). Pre spustenie simulacie stlac tlacidlo 'G':  ";
 
             std::string vstup;
             std::getline(std::cin, vstup);
@@ -121,7 +121,7 @@ void Hra::hraj() {
             std::cout << "R - vypisat vykonanu simulaciu spatne" << std::endl;
             std::cout << "F - vypisat vykonanu simulaciu dopredne" << std::endl;
             std::cout << "G - pokracovat vo vykonavani simulacie" << std::endl;
-            std::cout << "N - vztvorit novu simulaciu" << std::endl;
+            std::cout << "N - vytvorit novu simulaciu" << std::endl;
             std::cout << "Q - ukoncit program" << std::endl;
             std::cout << "-------------------------------------------" << std::endl;
             std::cout << "Pre vykonanie vyberu stlac jedno z hore uvedenych pismen na klavesnici: " << std::endl;
