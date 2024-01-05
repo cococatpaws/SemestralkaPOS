@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOS
+CMAKE_SOURCE_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOSThing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs
+CMAKE_BINARY_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

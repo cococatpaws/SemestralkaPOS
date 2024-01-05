@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/kamik/CLionProjects/SemestralkaPOS/hra.cpp" "CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj.d"
-  "C:/Users/kamik/CLionProjects/SemestralkaPOS/main.cpp" "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj.d"
-  "C:/Users/kamik/CLionProjects/SemestralkaPOS/my_socket.cpp" "CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.obj.d"
-  "C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/konvertor.cpp" "CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj.d"
-  "C:/Users/kamik/CLionProjects/SemestralkaPOS/utility/subor_handler.cpp" "CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.obj.d"
-  "C:/Users/kamik/CLionProjects/SemestralkaPOS/vzor.cpp" "CMakeFiles/SemestralkaPOS.dir/vzor.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/vzor.cpp.obj.d"
+  "C:/Users/kamik/CLionProjects/SemestralkaPOSThing/hra/hra.cpp" "CMakeFiles/SemestralkaPOS.dir/hra/hra.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/hra/hra.cpp.obj.d"
+  "C:/Users/kamik/CLionProjects/SemestralkaPOSThing/hra/vzor.cpp" "CMakeFiles/SemestralkaPOS.dir/hra/vzor.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/hra/vzor.cpp.obj.d"
+  "C:/Users/kamik/CLionProjects/SemestralkaPOSThing/main.cpp" "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/main.cpp.obj.d"
+  "C:/Users/kamik/CLionProjects/SemestralkaPOSThing/socket/my_socket.cpp" "CMakeFiles/SemestralkaPOS.dir/socket/my_socket.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/socket/my_socket.cpp.obj.d"
+  "C:/Users/kamik/CLionProjects/SemestralkaPOSThing/utility/konvertor.cpp" "CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj.d"
+  "C:/Users/kamik/CLionProjects/SemestralkaPOSThing/utility/subor_handler.cpp" "CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.obj" "msvc" "CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

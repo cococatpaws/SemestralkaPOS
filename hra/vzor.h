@@ -22,8 +22,8 @@ public:
     Vzor vzorDefinovanyUzivatelom(int parRiadky, int parStlpce, std::string ziveBunky);
     Vzor vzorZoSuboru(std::vector<std::vector<int>> parVzor);
     std::vector<std::vector<int>> getVzor();
-    int getPocetRiadkov() { return this->riadky; };
-    int getPocetStlpcov() { return this->stlpce; };
+    int getPocetRiadkov();
+    int getPocetStlpcov();
     void vypisVzor();
     void vypisNulovyVzor(int parRiadky, int parStlpce);
     ~Vzor() = default;

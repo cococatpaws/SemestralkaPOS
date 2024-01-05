@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOS
+CMAKE_SOURCE_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOSThing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs
+CMAKE_BINARY_DIR = C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs
 
 # Include any dependencies generated for this target.
 include CMakeFiles\SemestralkaPOS.dir\depend.make
@@ -59,148 +59,148 @@ include CMakeFiles\SemestralkaPOS.dir\progress.make
 include CMakeFiles\SemestralkaPOS.dir\flags.make
 
 CMakeFiles\SemestralkaPOS.dir\main.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
-CMakeFiles\SemestralkaPOS.dir\main.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOS\main.cpp
+CMakeFiles\SemestralkaPOS.dir\main.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOSThing\main.cpp
 CMakeFiles\SemestralkaPOS.dir\main.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SemestralkaPOS.dir/main.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\main.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\main.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOS\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SemestralkaPOS.dir/main.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\main.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\main.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\main.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/main.cpp.i"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOS\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOSThing\main.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/main.cpp.s"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\main.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOS\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\main.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\main.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
-CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOS\my_socket.cpp
-CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOS\my_socket.cpp
+CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
+CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOSThing\socket\my_socket.cpp
+CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SemestralkaPOS.dir/socket/my_socket.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\socket\my_socket.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.i"
-	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOS\my_socket.cpp
+CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/socket/my_socket.cpp.i"
+	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOSThing\socket\my_socket.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/my_socket.cpp.s"
+CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/socket/my_socket.cpp.s"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\my_socket.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOS\my_socket.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\socket\my_socket.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
-CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOS\vzor.cpp
-CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SemestralkaPOS.dir/vzor.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOS\vzor.cpp
+CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
+CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\vzor.cpp
+CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SemestralkaPOS.dir/hra/vzor.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\vzor.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\vzor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/vzor.cpp.i"
-	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\vzor.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOS\vzor.cpp
+CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/hra/vzor.cpp.i"
+	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\vzor.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\vzor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/vzor.cpp.s"
+CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/hra/vzor.cpp.s"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\vzor.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOS\vzor.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\vzor.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
-CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\subor_handler.cpp
+CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\subor_handler.cpp
 CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\subor_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\subor_handler.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.i"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\subor_handler.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\subor_handler.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/utility/subor_handler.cpp.s"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\subor_handler.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\subor_handler.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
-CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\konvertor.cpp
+CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\konvertor.cpp
 CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\konvertor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\konvertor.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.i"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\konvertor.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\konvertor.cpp
 <<
 
 CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/utility/konvertor.cpp.s"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOS\utility\konvertor.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\utility\konvertor.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
-CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOS\hra.cpp
-CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SemestralkaPOS.dir/hra.cpp.obj"
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\hra.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOS\hra.cpp
+CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj: CMakeFiles\SemestralkaPOS.dir\flags.make
+CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj: C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\hra.cpp
+CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj: CMakeFiles\SemestralkaPOS.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SemestralkaPOS.dir/hra/hra.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj.d --working-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs --filter-prefix="Note: including file: " -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj /FdCMakeFiles\SemestralkaPOS.dir\ /FS -c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\hra.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\hra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/hra.cpp.i"
-	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\hra.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOS\hra.cpp
+CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SemestralkaPOS.dir/hra/hra.cpp.i"
+	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe > CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\hra.cpp
 <<
 
-CMakeFiles\SemestralkaPOS.dir\hra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/hra.cpp.s"
+CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SemestralkaPOS.dir/hra/hra.cpp.s"
 	C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\hra.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOS\hra.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.s /c C:\Users\kamik\CLionProjects\SemestralkaPOSThing\hra\hra.cpp
 <<
 
 # Object files for target SemestralkaPOS
 SemestralkaPOS_OBJECTS = \
 "CMakeFiles\SemestralkaPOS.dir\main.cpp.obj" \
-"CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj" \
-"CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj" \
+"CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj" \
+"CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj" \
 "CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj" \
 "CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj" \
-"CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj"
+"CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj"
 
 # External object files for target SemestralkaPOS
 SemestralkaPOS_EXTERNAL_OBJECTS =
 
 SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\main.cpp.obj
-SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\my_socket.cpp.obj
-SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\vzor.cpp.obj
+SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\socket\my_socket.cpp.obj
+SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\hra\vzor.cpp.obj
 SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\utility\subor_handler.cpp.obj
 SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\utility\konvertor.cpp.obj
-SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\hra.cpp.obj
+SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\hra\hra.cpp.obj
 SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\build.make
 SemestralkaPOS.exe: CMakeFiles\SemestralkaPOS.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SemestralkaPOS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SemestralkaPOS.exe"
 	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\SemestralkaPOS.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\SemestralkaPOS.dir\objects1.rsp @<<
- /out:SemestralkaPOS.exe /implib:SemestralkaPOS.lib /pdb:C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\SemestralkaPOS.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  wsock32.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:SemestralkaPOS.exe /implib:SemestralkaPOS.lib /pdb:C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\SemestralkaPOS.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  wsock32.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -212,6 +212,6 @@ CMakeFiles\SemestralkaPOS.dir\clean:
 .PHONY : CMakeFiles\SemestralkaPOS.dir\clean
 
 CMakeFiles\SemestralkaPOS.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\kamik\CLionProjects\SemestralkaPOS C:\Users\kamik\CLionProjects\SemestralkaPOS C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs C:\Users\kamik\CLionProjects\SemestralkaPOS\cmake-build-debug_vs\CMakeFiles\SemestralkaPOS.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\kamik\CLionProjects\SemestralkaPOSThing C:\Users\kamik\CLionProjects\SemestralkaPOSThing C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs C:\Users\kamik\CLionProjects\SemestralkaPOSThing\cmake-build-debug_vs\CMakeFiles\SemestralkaPOS.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\SemestralkaPOS.dir\depend
 

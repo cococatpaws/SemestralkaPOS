@@ -126,3 +126,11 @@ void Vzor::vypisNulovyVzor(int parRiadky, int parStlpce) {
     }
 }
 
+int Vzor::getPocetStlpcov() {
+    return this->stlpce;
+}
+
+int Vzor::getPocetRiadkov() {
+    return this->riadky;
+}
+
