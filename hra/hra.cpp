@@ -13,7 +13,7 @@ void Hra::inicializaciaHry() {
     Vzor vzor;
     bool uspesneNacitane = false;
 
-    while(!uspesneNacitane) {
+    while(!uspesneNacitane && programBezi) {
         std::cout << "-------------------------------------------" << std::endl;
         std::cout << "Co by si chcel spravit: " << std::endl;
         std::cout << "1 - Vytvorit novu nahodnu hru" << std::endl;
@@ -83,6 +83,9 @@ void Hra::inicializaciaHry() {
             std::cout << "Vzor zo serveru" << std::endl;
 
             MySocket* socket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
+            std::string message = "download";
+            socket->sendData(message);
+
             std::string pocetZaznamov;
             socket->receiveData(pocetZaznamov);
 
@@ -98,6 +101,8 @@ void Hra::inicializaciaHry() {
 
                     std::string prijatyVzor;
                     socket->receiveData(prijatyVzor);
+
+                    socket->sendEndMessage();
 
                     std::vector<std::vector<int>> vzorZoServeru = this->konvertor.stringNaVector(prijatyVzor);
                     vzor.vzorZoSuboru(vzorZoServeru);
@@ -127,7 +132,7 @@ void Hra::hraj() {
         if (!simulaciaBezi && !bolaSpustena) {
             std::cout << "-------------------------------------------" << std::endl;
             std::cout << "Simulacia je pozastavena! Chces ju spustit?" << std::endl;
-            std::cout << "(Simulaciu mozes v akomkolvek okamziku zastavit pomocou tlacidla 'P¨). Pre spustenie simulacie stlac tlacidlo 'G':  ";
+            std::cout << "(Simulaciu mozes v akomkolvek okamziku zastavit pomocou tlacidla 'P'). Pre spustenie simulacie stlac tlacidlo 'G':  ";
 
             std::string vstup;
             std::getline(std::cin, vstup);
@@ -149,7 +154,7 @@ void Hra::hraj() {
             std::cout << "R - vypisat vykonanu simulaciu spatne" << std::endl;
             std::cout << "F - vypisat vykonanu simulaciu dopredne" << std::endl;
             std::cout << "G - pokracovat vo vykonavani simulacie" << std::endl;
-            std::cout << "N - vztvorit novu simulaciu" << std::endl;
+            std::cout << "N - vytvorit novu simulaciu" << std::endl;
             std::cout << "Q - ukoncit program" << std::endl;
             std::cout << "-------------------------------------------" << std::endl;
             std::cout << "Pre vykonanie vyberu stlac jedno z hore uvedenych pismen na klavesnici: " << std::endl;
@@ -226,6 +231,7 @@ void Hra::spracujVstup(const std::string& input) {
         MySocket* socket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
         std::string prvotnyVzor = this->konvertor.vectorNaString(this->vzory.front().getVzor());
         socket->sendData(prvotnyVzor);
+        socket->sendEndMessage();
 
         delete socket;
         socket = nullptr;
