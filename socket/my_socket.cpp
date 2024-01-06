@@ -83,6 +83,20 @@ void MySocket::sendData(const std::string &data) {
     buffer = NULL;
 }
 
+void MySocket::receiveData(std::string &receivedData) {
+    char buffer[1024];
+    int bytesRead;
+
+    bytesRead = recv(connectSocket, buffer, sizeof(buffer), 0);
+    if (bytesRead > 0) {
+        receivedData.append(buffer, bytesRead);
+    } else if (bytesRead == 0) {
+        throw std::runtime_error("Can't connect to server.\n");
+    } else {
+        throw std::runtime_error("recv failed with error: " + std::to_string(WSAGetLastError()) + "\n");
+    }
+}
+
 void MySocket::sendEndMessage() {
     this->sendData(this->endMessage);
 }

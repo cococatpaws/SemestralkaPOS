@@ -12,6 +12,7 @@
 #include <iostream>
 #include <thread>
 #include <Windows.h>
+#include "../socket/my_socket.h"
 
 class Hra {
 private:

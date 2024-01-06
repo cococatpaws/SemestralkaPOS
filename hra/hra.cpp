@@ -195,7 +195,12 @@ void Hra::spracujVstup(const std::string& input) {
         this->simulaciaBezi = false;
         this->inicializaciaHry();
     } else if (input == "d") {
-        //TODO - ulozenie na server
+        MySocket* socket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
+        std::string prvotnyVzor = this->konvertor.vectorNaString(this->vzory.front().getVzor());
+        socket->sendData(prvotnyVzor);
+
+        delete socket;
+        socket = nullptr;
     }
 }
 
