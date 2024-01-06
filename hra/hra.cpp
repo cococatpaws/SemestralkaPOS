@@ -80,9 +80,37 @@ void Hra::inicializaciaHry() {
             }
         } else if (pouzivatelskyVstup == "4") {
             std::cout << "-------------------------------------------" << std::endl;
-            std::cout << "Vzor zo serveru - to be implemented" << std::endl;
-            //TODO - vzor zo serveru
-        } else if (pouzivatelskyVstup == "E" || pouzivatelskyVstup =="e") {
+            std::cout << "Vzor zo serveru" << std::endl;
+
+            MySocket* socket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
+            std::string pocetZaznamov;
+            socket->receiveData(pocetZaznamov);
+
+            if (std::stoi(pocetZaznamov) > 0) {
+                std::cout << "Na servero je ulozenych aktualne " << pocetZaznamov << " vzorov." << std::endl;
+                std::cout << "Zadaj cislo od 1 do " << pocetZaznamov << " pre ziskanie prislusneho vzoru zo serveru." << std::endl;
+                std::cout << "Cislo: ";
+                std::string vstup;
+                std::getline(std::cin, vstup);
+
+                if(std::stoi(vstup) > 0 && std::stoi(vstup) < std::stoi(pocetZaznamov)) {
+                    socket->sendData(vstup);
+
+                    std::string prijatyVzor;
+                    socket->receiveData(prijatyVzor);
+
+                    std::vector<std::vector<int>> vzorZoServeru = this->konvertor.stringNaVector(prijatyVzor);
+                    vzor.vzorZoSuboru(vzorZoServeru);
+                    this->vzory.push_back(vzor);
+                }
+            } else {
+                std::cout << "Na serveri nie je aktualne ulozeny ziaden vzor, nemozes stahovat!" << std::endl;
+            }
+
+            delete socket;
+            socket = nullptr;
+
+        } else if (pouzivatelskyVstup == "Q" || pouzivatelskyVstup == "q") {
             this->programBezi = false;
         }
     }

@@ -8,11 +8,11 @@
 #include "vzor.h"
 #include "../utility/konvertor.h"
 #include "../utility/subor_handler.h"
+#include "../socket/my_socket.h"
 #include <vector>
 #include <iostream>
 #include <thread>
 #include <Windows.h>
-#include "../socket/my_socket.h"
 
 class Hra {
 private:
