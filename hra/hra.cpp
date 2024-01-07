@@ -5,8 +5,9 @@
 #include "hra.h"
 
 Hra::Hra() : suborHandler(), konvertor(), simulaciaBezi(false), programBezi(true), bolaSpustena(false) {
+    this->mySocket = MySocket::createConnection("frios2.fri.uniza.sk", 12389);
     this->inicializaciaHry();
-    this->mySocket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
+
 }
 
 void Hra::inicializaciaHry() {
@@ -96,7 +97,7 @@ void Hra::inicializaciaHry() {
                 std::string vstup;
                 std::getline(std::cin, vstup);
 
-                if(std::stoi(vstup) > 0 && std::stoi(vstup) < std::stoi(pocetZaznamov)) {
+                if(std::stoi(vstup) > 0 && std::stoi(vstup) < std::stoi(pocetZaznamov) + 1) {
                     this->mySocket->sendData(vstup);
 
                     std::string prijatyVzor;
@@ -105,6 +106,7 @@ void Hra::inicializaciaHry() {
                     std::vector<std::vector<int>> vzorZoServeru = this->konvertor.stringNaVector(prijatyVzor);
                     vzor.vzorZoSuboru(vzorZoServeru);
                     this->vzory.push_back(vzor);
+                    uspesneNacitane =true;
                 }
             } else {
                 std::cout << "Na serveri nie je aktualne ulozeny ziaden vzor, nemozes stahovat!" << std::endl;
