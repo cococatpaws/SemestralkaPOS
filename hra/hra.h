@@ -19,6 +19,7 @@ private:
     std::vector<Vzor> vzory;
     SuborHandler suborHandler;
     Konvertor konvertor;
+    MySocket* mySocket;
     bool simulaciaBezi;
     bool programBezi;
     bool bolaSpustena;
@@ -34,7 +35,7 @@ public:
     void vytvorNovyVzor();
     void vypisHruOdzadu();
     void vypisHruOdpredu();
-    ~Hra() = default;
+    ~Hra();
 };
 
 #endif //SEMESTRALKAPOS_HRA_H

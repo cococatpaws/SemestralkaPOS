@@ -6,6 +6,7 @@
 
 Hra::Hra() : suborHandler(), konvertor(), simulaciaBezi(false), programBezi(true), bolaSpustena(false) {
     this->inicializaciaHry();
+    this->mySocket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
 }
 
 void Hra::inicializaciaHry() {
@@ -82,12 +83,11 @@ void Hra::inicializaciaHry() {
             std::cout << "-------------------------------------------" << std::endl;
             std::cout << "Vzor zo serveru" << std::endl;
 
-            MySocket* socket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
             std::string message = "download";
-            socket->sendData(message);
+            this->mySocket->sendData(message);
 
             std::string pocetZaznamov;
-            socket->receiveData(pocetZaznamov);
+            this->mySocket->receiveData(pocetZaznamov);
 
             if (std::stoi(pocetZaznamov) > 0) {
                 std::cout << "Na servero je ulozenych aktualne " << pocetZaznamov << " vzorov." << std::endl;
@@ -97,12 +97,10 @@ void Hra::inicializaciaHry() {
                 std::getline(std::cin, vstup);
 
                 if(std::stoi(vstup) > 0 && std::stoi(vstup) < std::stoi(pocetZaznamov)) {
-                    socket->sendData(vstup);
+                    this->mySocket->sendData(vstup);
 
                     std::string prijatyVzor;
-                    socket->receiveData(prijatyVzor);
-
-                    socket->sendEndMessage();
+                    this->mySocket->receiveData(prijatyVzor);
 
                     std::vector<std::vector<int>> vzorZoServeru = this->konvertor.stringNaVector(prijatyVzor);
                     vzor.vzorZoSuboru(vzorZoServeru);
@@ -111,12 +109,9 @@ void Hra::inicializaciaHry() {
             } else {
                 std::cout << "Na serveri nie je aktualne ulozeny ziaden vzor, nemozes stahovat!" << std::endl;
             }
-
-            delete socket;
-            socket = nullptr;
-
         } else if (pouzivatelskyVstup == "Q" || pouzivatelskyVstup == "q") {
             this->programBezi = false;
+            this->mySocket->sendEndMessage();
         }
     }
 
@@ -218,6 +213,7 @@ void Hra::spracujVstup(const std::string& input) {
         this->vypisHruOdpredu();
     }  else if (input == "q") {
         this->programBezi = false;
+        this->mySocket->sendEndMessage();
     } else if (input == "g") {
         this->simulaciaBezi = true;
     } else if (input == "p") {
@@ -228,13 +224,8 @@ void Hra::spracujVstup(const std::string& input) {
         this->simulaciaBezi = false;
         this->inicializaciaHry();
     } else if (input == "d") {
-        MySocket* socket = MySocket::createConnection("frios2.fri.uniza.sk", 12288);
         std::string prvotnyVzor = this->konvertor.vectorNaString(this->vzory.front().getVzor());
-        socket->sendData(prvotnyVzor);
-        socket->sendEndMessage();
-
-        delete socket;
-        socket = nullptr;
+        this->mySocket->sendData(prvotnyVzor);
     }
 }
 
@@ -324,4 +315,9 @@ void Hra::vypisHruOdpredu() {
 
 void Hra::vypisVzorNaPozicii(int poziciaVoVektore) {
     this->vzory[poziciaVoVektore].vypisVzor();
+}
+
+Hra::~Hra() {
+    delete this->mySocket;
+    this->mySocket = nullptr;
 }

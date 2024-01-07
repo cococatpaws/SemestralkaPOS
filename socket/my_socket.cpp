@@ -85,9 +85,8 @@ void MySocket::sendData(const std::string &data) {
 
 void MySocket::receiveData(std::string &receivedData) {
     char buffer[1024];
-    int bytesRead;
 
-    bytesRead = recv(connectSocket, buffer, sizeof(buffer), 0);
+    int bytesRead = recv(connectSocket, buffer, sizeof(buffer), 0);
     if (bytesRead > 0) {
         receivedData.append(buffer, bytesRead);
     } else if (bytesRead == 0) {
